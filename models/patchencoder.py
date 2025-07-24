@@ -1,6 +1,6 @@
 """
 The baseline code is configured with 3 channels to enable effective visualization of the GenENet model.
-For final deployment, it can be reduced to 1 channel to save parameters.
+For final deployment, it can be reduced to 1 channel for model optimization.
 """
 
 import torch

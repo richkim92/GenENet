@@ -1,5 +1,9 @@
-import attr
+"""
+The baseline code is configured with 3 channels to enable effective visualization of the GenENet model.
+For final deployment, it can be reduced to 1 channel for model optimization.
+"""
 
+import attr
 
 @attr.s(auto_attribs=True)
 class GNETParams:

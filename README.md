@@ -15,53 +15,47 @@
 The requirements for this code are the same as [MAE](https://arxiv.org/abs/2111.06377).
 
 
-## 📁 Project Structure
-
-```
-GenENet/
-├── models/                  # Core model components 
-├── pretrain/                # Pretraining phase
-│   ├── dataset/             # 32ch Datasets for pretraining
-│   ├── model_pt/            # Saved pretraining checkpoints
-│   ├── params.py            
-│   └── train_pre.py         # Pretraining script
-├── utils                    # Shared utilities (augmentation, scheduler, dataset utils)
-└── downstream.py            # Downstream fine-tuning and evaluation
-    ├── dataset/             # Dataset consisted with sample Sign-language labels
-    ├── model_pt/            
-    ├── params.py
-    └── train_post.py        # Posttraining script
-```
----
 
 ##  Setup
 
-### 1. Set up data
 
-Organize your dataset in the required format. Modify paths in `params.py` if needed.  
-Please download pretrained checkpoint `model.pt` from the following link:  
-https://drive.google.com/drive/folders/1LGjDGhr8GPF6FJcVxDECCW5eh7b4y-Zg?usp=drive_link
+### 1. Clone respository  
 
+Clone this repository and navigate to the root directory.
+```bash
+git clone https://github.com/richkim92/GenENet.git
+cd GenENet
+```
 ---
 
-### 2. Pretraining
+### 2. Set up data
 
-Run masked autoencoding pretraining. This will drive representation learning of entire 32 channels. 
+Sample dataset is stored in /dataset. Modify paths in `params.py` if needed.  
+To download pretrained checkpoint `model.pt`, run:
+
+```bash
+python -m utils.download_model --model-name model
+```
+---
+
+### 3. Pretraining
+
+Run masked self-supervised pretraining. This will drive representation learning of entire 32 channels. 
 
 ```bash
 python pretrain/train_pre.py
 ```
 ---
 
-### 3. Downstream Classification
+### 4. Downstream Classification
 
 Run fine-tuning using pretrained encoder and downstream LSTM:
 
 ```bash
-python train_post.py
+python downstream/train_post.py
 ```
 
-By default, it loads the checkpoint from `./pretrain/model_pt/model.pt`.
+By default, it loads the checkpoint from `./model_pt/model.pt`.
 
 ---
 
