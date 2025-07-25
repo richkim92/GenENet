@@ -8,7 +8,7 @@
 <!--  [![arXiv](https://img.shields.io/badge/arXiv%20paper-2504.11295-b31b1b.svg)](https://arxiv.org/abs/2504.11295)&nbsp;   -->
 
 ## Overview
-<i>We propose a Generative Electromyography Network (GenENet), a generative algorithm combined with wearable sensor that extrapolates limited sensor counts to reconstruct muscle activity in unseen regions. This approach allows for gathering information equivalent to those from high-density EMG sensor networks, but using a more compact, wearable device with much reduced sensor counts, without sacrificing performance</i>
+We propose a Generative Electromyography Network (GenENet), a representation learning framework integrated with a wearable sensor system that leverages a simple, low‑channel‑count device to predict a broad spectrum of body kinematics traditionally reliant on high‑density EMG sensor arrays. This approach enables acquisition of information comparable to that obtained from high‑density EMG networks while using a more compact and wearable device with significantly fewer sensors, without compromising performance in human‑machine interaction tasks.
 ![Teaser image](./assets/Cover_figure.png)
 
 
