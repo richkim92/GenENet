@@ -1,5 +1,5 @@
-# GenENet
-#### A modular framework for self-supervised pretraining and downstream evaluation of EMG gesture prediction using GenENet.
+# A simplified low‑channel EMG sensing for human‑machine interfaces
+#### A modular framework for generative representation learning and downstream evaluation of EMG gesture prediction using low-channel wearble EMG device.
 ---
 
 **[Kyun Kyu Kim](https://kyunkyukim.com)\#<sup>1</sup>, [Zhenan Bao](https://baogroup.stanford.edu)\*<sup>1</sup>**  
@@ -8,7 +8,7 @@
 <!--  [![arXiv](https://img.shields.io/badge/arXiv%20paper-2504.11295-b31b1b.svg)](https://arxiv.org/abs/2504.11295)&nbsp;   -->
 
 ## Overview
-We propose a Generative Electromyography Network (GenENet), a representation learning framework integrated with a wearable sensor system that leverages a simple, low‑channel‑count device to predict a broad spectrum of body kinematics traditionally reliant on high‑density EMG sensor arrays. This approach enables acquisition of information comparable to that obtained from high‑density EMG networks while using a more compact and wearable device with significantly fewer sensors, without compromising performance in human‑machine interaction tasks.
+We propose a Generative Electromyography Network (GenENet), a representation learning framework integrated with a wearable sensor system that leverages a simple, low‑channel‑count device to predict a broad spectrum of body kinematics traditionally reliant on high‑density EMG sensor arrays. This approach enables acquisition of information comparable to that obtained from high‑density EMG networks while using a more compact and wearable device with significantly fewer sensors, without compromising performance in human‑computer interaction tasks.
 ![Teaser image](./assets/Cover_figure.png)
 
 
