@@ -9,23 +9,10 @@
 
 ## Overview
 We propose a Generative Electromyography Network (GenENet), a representation learning framework integrated with a wearable sensor system that leverages a simple, low‑channel‑count device to predict a broad spectrum of body kinematics traditionally reliant on high‑density EMG sensor arrays. This approach enables acquisition of information comparable to that obtained from high‑density EMG networks while using a more compact and wearable device with significantly fewer sensors, without compromising performance in human‑computer interaction tasks.
-<!--![Teaser image](./assets/Cover_figure.png)-->
-| <div align="center"><small>Year</small></div> | <div align="center"><small>2021<sup>[1]</sup></small></div> | <div align="center"><small>2024<sup>[2]</sup></small></div> | <div align="center"><small>2023<sup>[3]</sup></small></div> | <div align="center"><small>2020<sup>[4]</sup></small></div> | <div align="center"><small>2022<sup>[5]</sup></small></div> | <div align="center"><small>**Ours**</small></div> |
-|-------|-------------------------|------------|--------------------------|--------------------------------|------------------------|------|
-| <div align="center"><small><b>Outline</b></small></div> | <div align="center"><img src="assets/nat_elec_2021.png" width="200"/></div> | <div align="center"><img src="assets/tbme_2024.png" width="250"/></div> | <div align="center"><img src="assets/sci_report_2023.png" width="200"/></div> | <div align="center"><img src="assets/bio_eng_2020.png" width="50"/></div> | <div align="center"><img src="assets/IEEE_2022.png" width="70"/></div> | <div align="center"><img src="assets/ours_2025.png" width="350"/></div> |
-| <div align="center"><small><b>Channels</b></small></div> | <div align="center"><small>64 EMG</small></div> | <div align="center"><small>320 EMG</small></div> | <div align="center"><small>64 EMG</small></div> | <div align="center"><small>2 IMUs</small></div> | <div align="center"><small>8 IMUs,<br>2 Cameras</small></div> | <div align="center"><small>**6 EMG**</small></div> |
-| <div align="center"><small><b>Prediction</b></small></div> | <div align="center"><small>13 gestures</small></div> | <div align="center"><small>22 gestures</small></div> | <div align="center"><small>65 gestures</small></div> | <div align="center"><small>Gait dynamics</small></div> | <div align="center"><small>Gait dynamics</small></div> | <div align="center"><small>**26 gestures,<br> Gait dynamics**</small></div> |
-| <div align="center"><small><b>Area (cm²)</b></small></div> | <div align="center"><small>240</small></div> | <div align="center"><small>208</small></div> | <div align="center"><small>>64</small></div> | <div align="center"><small>>300</small></div> | <div align="center"><small>>300</small></div> | <div align="center"><small>**4.5**</small></div> |
 
-
+![Teaser image](./assets/Cover_picture.png)
 <sub>
-**References**  
-[1] Nature Electronics, 2021  
-[2] IEEE TBME, 2024  
-[3] Scientific Reports, 2023  
-[4] Front. Bioeng. Biotechnol, 2020  
-[5] IEEE Transactions on Industrial Informatics, 2022
-</sub>
+[1] Nature Electronics, 2021  [2] IEEE TBME, 2024  [3] Scientific Reports, 2023  [4] Front. Bioeng. Biotechnol, 2020  [5] IEEE Transactions on Industrial Informatics, 2022 </sub>
 
 
 
